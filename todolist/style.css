@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+.container{
+    width:85%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.head h1{
+    color:white;
+}
+.input-container{
+    width: 100%;
+    padding:35px;
+}
+.input-container input{
+    width:100%;
+    padding:15px;
+    background-color: #e5e5e5;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    color:black
+}
+input::placeholder{
+    color:black
+}
+
+.tasks-container{
+    width:100%;
+    text-align: center;
+    padding:30px;
+}
+.item{
+    width: 100%;
+    background-color: white;
+    padding:30px;
+    border-radius: 15px;
+    margin-top: 20px;
+   
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.item-date{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.item-complete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:8%;
+}
+.item-complete input{
+    width: 30px;
+    height: 30px;
+   
+}
+
+.change-complete-color{
+    background-color: green;
+}
+
+.input-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    border:none;
+    outline: none;
+    background-color: white;
+}
